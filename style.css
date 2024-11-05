@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: rgb(97, 250, 250);
+	padding: 1rem;
+}
+
+.container {
+	width: 500px;
+}
+
+.container h3 {
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
+
+.textarea {
+	width: 100%;
+	display: block;
+	margin: 1rem auto;
+	height: 4rem;
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: none;
+	resize: none;
+	overflow-y: hidden;
+	/* border-radius: 10px; */
+}
+
+.textarea:focus {
+	outline: 0;
+}
+
+.tag span {
+	background-color: rgb(249, 5, 46);
+	color: white;
+	padding: 0.2rem;
+	display: inline-block;
+	margin: 0.2rem;
+	border-radius: 10px;
+}
+
+.tag span.highlight {
+	background-color: gray;
+	transform: translateY(-8px);
+}
